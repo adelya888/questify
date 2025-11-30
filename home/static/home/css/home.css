@@ -1,0 +1,455 @@
+.wrapper {
+    background: linear-gradient(0deg, rgba(0, 209, 122, 0.5) 0%, rgba(250, 202, 30, 0.5) 100%);
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.hero {
+    padding: 70px 0 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero__info {
+    width: 530px;
+    padding-top: 0;
+}
+
+.hero__info h2 {
+    color: rgb(74, 118, 236);
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.hero__info p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero__info .btn {
+    background: rgb(74, 118, 236);
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero__info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero__info h1 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 170%;
+    margin: 50px 0;
+    color: #444444;
+    opacity: 0.8;
+}
+
+.hero img {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.desc {
+    padding-top: 80px;
+}
+
+.desc h2 {
+    font-weight: 800;
+    font-size: 31px;
+    color: rgb(74, 118, 236);
+    padding-bottom: 50px;
+}
+
+.desc__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.desc .block img {
+    width: 60px;
+    padding-bottom: 10px;
+}
+
+.desc h3 {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(74, 118, 236);
+    padding-bottom: 10px;
+}
+
+.desc .block {
+    padding: 50px 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px rgb(157, 182, 250);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.desc .block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(74, 118, 236, 0.3);
+}
+
+.desc_2 {
+    padding-top: 80px;
+}
+
+.desc_2 h2 {
+    font-weight: 800;
+    font-size: 31px;
+    color: rgb(74, 118, 236);
+    padding-bottom: 50px;
+}
+
+.desc_2__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.desc_2 .block img {
+    width: 60px;
+    padding-bottom: 10px;
+}
+
+.desc_2 h3 {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(74, 118, 236);
+    padding-bottom: 10px;
+}
+
+.desc_2 .block {
+    padding: 50px 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px rgb(157, 182, 250);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.desc_2 .block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(74, 118, 236, 0.3);
+}
+
+.hobbi {
+    padding-top: 80px;
+}
+
+.hobbi h2 {
+    font-weight: 800;
+    font-size: 31px;
+    color: rgb(74, 118, 236);
+    padding-bottom: 50px;
+}
+
+.hobbi .btn {
+    float: right;
+    background: rgb(74, 118, 236);
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hobbi .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hobbi__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobbi .block {
+    padding: 50px 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px rgb(157, 182, 250);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobbi .block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(74, 118, 236, 0.3);
+}
+
+.hobbi .block img {
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.hobbi .block span {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    color: rgb(74, 118, 236);
+    font-size: 25px;
+}
+
+.hobbi .block span img {
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.hobbi .block span2 {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.hobbi .block span2 img {
+    position: relative;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.reviews {
+    padding-top: 80px;
+}
+
+.reviews h2 {
+    font-weight: 800;
+    font-size: 31px;
+    color: rgb(74, 118, 236);
+    padding-bottom: 50px;
+}
+
+.reviews__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reviews .block {
+    padding: 50px 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 1.5;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgb(157, 182, 250);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reviews .block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(74, 118, 236, 0.3);
+}
+
+.reviews .block img {
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.reviews .block span p {
+    font-size: 25px;
+}
+
+.reviews .block span {
+    color: rgb(74, 118, 236);
+    font-size: 25px;
+}
+
+.desc3 {
+    padding: 80px 0 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.desc3 h2 {
+    color: rgb(74, 118, 236);
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.desc3__info p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 170%;
+    margin: 30px 0;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.desc3__info .btn {
+    background: rgb(74, 118, 236);
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.desc3__info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+    .hero__info h2 {
+        font-size: 40px;
+    }
+    
+    .hero__info .btn {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 0 60px;
+    }
+    
+    .hero__info {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .hero__info h2 {
+        font-size: 32px;
+    }
+    
+    .hero__info p {
+        font-size: 18px;
+    }
+    
+    .hero__info .btn {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+    
+    .hero img {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 30px auto 0;
+        display: block;
+    }
+    
+    .desc__info,
+    .desc_2__info,
+    .hobbi__info,
+    .reviews__info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .desc .block,
+    .desc_2 .block,
+    .hobbi .block,
+    .reviews .block {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .hobbi .btn {
+        float: none;
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .desc3__info p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__info h2 {
+        font-size: 28px;
+    }
+    
+    .hero__info p {
+        font-size: 16px;
+    }
+    
+    .desc h2,
+    .desc_2 h2,
+    .hobbi h2,
+    .reviews h2,
+    .desc3 h2 {
+        font-size: 24px;
+    }
+    
+    .desc .block,
+    .desc_2 .block,
+    .hobbi .block,
+    .reviews .block {
+        padding: 30px 15px;
+    }
+}
+
